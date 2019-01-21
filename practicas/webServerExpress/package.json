@@ -1,0 +1,13 @@
+{
+  "name": "CursoNode",
+  "version": "1.0.0",
+  "description": "Curso Node.js ",
+  "author": "Bego",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*"
+  }
+}

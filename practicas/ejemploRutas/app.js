@@ -7,6 +7,10 @@ app.get('/', function(req, res) {
 });
 
 
+app.all('/secret', function(req, res, next) {
+  console.log('Accediendo a la seccion secreta ...');
+  next(); // pasa el control al siguiente manejador
+});
 
 
 var wiki = require('./wiki.js');
